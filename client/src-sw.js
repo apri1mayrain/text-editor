@@ -42,6 +42,6 @@ registerRoute(({ request }) =>
 );
 
 // Implement asset caching
-registerRoute(({ request }) => {
+registerRoute(({ request }) => 
   ['script', 'style', 'image', 'manifest'].includes(request.destination), assetCache
-});
+);
